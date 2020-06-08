@@ -253,3 +253,44 @@
 // document.write("<br>"+num+" "+"x"+" "+9+" "+"="+" "+ num*9);
 // document.write("<br>"+num+" "+"x"+" "+10+" "+"="+" "+ num*10);
 
+//No. 06
+
+// var celcius= +prompt("Enter the temperature in celcius");
+// var far=(celcius * (9/5))+32;
+// document.write(celcius+"C"+" "+ "is"+" "+far+"F");
+
+
+// var far= +prompt("Enter the temperature in farenheit");
+// var celcius=(far - 32)*(5/9);
+// document.write(far+"F"+" "+ "is"+" "+celcius+"C");
+
+
+//No. 07
+
+// var price1=500;
+// var price2=604;
+// var qua1=+prompt("Enter the quantity of item 1");
+// var qua2=+prompt("Enter the quantity of item 2");
+// var charges=200;
+// var item1tot= price1 * qua1;
+// var item2tot= price2 * qua2;
+// var totalcost=item1tot+item2tot+charges;
+
+// document.write("<br>"+"Price of item 1 is"+" "+price1);
+// document.write("<br>"+"Quantity of item 1 is"+" "+qua1);
+// document.write("<br>"+"Price of item 2 is"+" "+price2);
+// document.write("<br>"+"Quantity of item 2 is"+" "+qua2);
+// document.write("<br>"+"Shipping Charges is"+" "+charges);
+// document.write("<br>"+"Total cost of your order is "+" "+totalcost);
+
+
+
+//No. 08
+
+// var tot = +prompt("Enter total marks");
+// var obt = +prompt("Enter obtained marks");
+// var per=(obt/tot)*100;
+// document.write("<br>"+"The total marks are"+" "+tot);
+// document.write("<br>"+"YOur obtained marks are"+" "+obt);
+// document.write("<br>"+"Your percentage is"+" "+per);
+
